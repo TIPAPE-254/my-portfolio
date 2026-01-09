@@ -21,8 +21,22 @@ body {
     color: var(--text-color);
     line-height: 1.6;
     overflow-x: hidden;
-    background-image: url('assets/img2.png;
+    position: relative;
+    }
 
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('assets/img2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    filter: blur(10px) brightness(0.4);
+    z-index: -1;
     }
 
     h1,
@@ -89,7 +103,8 @@ body {
         background-image: url('assets/hero_background.png');
         background-size: cover;
         background-position: center;
-        opacity: 0.1;
+        opacity: 0.5;
+        filter: blur(10px) brightness(0.4);
         mask-image: linear-gradient(to left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     }
 
@@ -139,6 +154,14 @@ body {
         padding: 100px 0;
     }
 
+    #worldchanger {
+        color: white;
+    }
+
+    #worldchanger .section-title {
+        color: white;
+    }
+
     .section-title {
         font-size: 2.5rem;
         margin-bottom: 3rem;
@@ -163,11 +186,12 @@ body {
         border-radius: 16px;
         transition: var(--transition);
         overflow: hidden;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
     }
 
     .card:hover {
         transform: translateY(-5px);
-        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
     }
 
     .feature-icon {
@@ -193,6 +217,11 @@ body {
     .form-control:focus {
         box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.1);
         border-color: var(--accent-color);
+    }
+
+    /* Contact Background */
+    .contact-bg {
+        background: linear-gradient(135deg, var(--accent-color) 0%, #1e40af 100%);
     }
 
     /* Footer */
@@ -237,11 +266,12 @@ body {
     /* Hover Card Effect */
     .hover-card {
         transition: all 0.3s ease;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
     }
 
     .hover-card:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1) !important;
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15) !important;
     }
 
     /* JavaScript Frameworks Hover Popup */
