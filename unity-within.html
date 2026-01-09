@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="UNITY WITHIN - A human-centered mental health initiative making mental wellness accessible, safe, and stigma-free.">
+    <title>UNITY WITHIN | Mental Wellness Through Technology</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- UNITY WITHIN Page Specific Styles -->
+    <style>
+        body {
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('assets/img2.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            filter: blur(5px);
+            opacity: 0.4;
+            z-index: -1;
+        }
+
+        /* Ensure content is readable */
+        section {
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Add subtle overlay for better readability */
+        body::after {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.85);
+            z-index: -1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container">
+            <a class="navbar-brand fs-4" href="index.html">TM.</a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="unity-within.html">UNITY WITHIN</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#worldchanger">World Changer Techs</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero d-flex align-items-center" style="padding: 120px 0 60px;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center reveal">
+                    <h1 class="hero-title mb-4">UNITY WITHIN</h1>
+                    <p class="lead text-muted mb-4">Mental Wellness Through Technology</p>
+                    <blockquote class="blockquote">
+                        <p class="mb-0 fs-5 fst-italic">"Mental health conversations should be normal, safe, and
+                            accessible to everyone."</p>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mission Statement -->
+    <section class="bg-white py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 reveal">
+                    <p class="lead">
+                        <strong>UNITY WITHIN</strong> is a human-centered mental health initiative built on one simple
+                        belief:
+                        Mental health conversations should be normal, safe, and accessible to everyone.
+                    </p>
+                    <p>
+                        We are working to <strong>break the silence</strong> around mental health by creating spaces
+                        where people can talk openly—without shame, fear, or judgment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Normalizing the Conversation -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 reveal">
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="bi bi-chat-heart text-primary fs-1 me-3"></i>
+                        <h2 class="mb-0">Normalizing the Conversation</h2>
+                    </div>
+                    <p class="mb-4">
+                        Mental health struggles are part of being human, yet many people suffer in silence.
+                    </p>
+                    <p class="mb-4"><strong>UNITY WITHIN focuses on:</strong></p>
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-primary me-3 mt-1"></i>
+                            <span>Encouraging open, everyday conversations about mental health</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-primary me-3 mt-1"></i>
+                            <span>Reducing stigma through education and empathy</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-check-circle-fill text-primary me-3 mt-1"></i>
+                            <span>Helping people feel seen, heard, and understood</span>
+                        </li>
+                    </ul>
+                    <div class="alert alert-info mt-4" role="alert">
+                        <i class="bi bi-info-circle me-2"></i>
+                        We don't treat mental health as a crisis topic only—we treat it as a <strong>daily human
+                            reality</strong>.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Research -->
+    <section class="bg-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 reveal">
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="bi bi-cpu text-primary fs-1 me-3"></i>
+                        <h2 class="mb-0">Researching AI for Mental Well-Being</h2>
+                    </div>
+                    <p class="mb-4">
+                        UNITY WITHIN is actively involved in <strong>researching how Artificial Intelligence can be used
+                            responsibly</strong> to help address mental unwellness.
+                    </p>
+                    <p class="mb-4"><strong>Our research explores:</strong></p>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-arrow-right-circle text-primary me-3 mt-1"></i>
+                            <span>How AI can support early emotional awareness</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-arrow-right-circle text-primary me-3 mt-1"></i>
+                            <span>Ethical use of AI in self-therapy and mental health guidance</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-arrow-right-circle text-primary me-3 mt-1"></i>
+                            <span>AI as a <strong>support tool</strong>, not a replacement for human care</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-arrow-right-circle text-primary me-3 mt-1"></i>
+                            <span>Safe, privacy-respecting, culturally aware mental health technology</span>
+                        </li>
+                    </ul>
+                    <div class="card border-primary">
+                        <div class="card-body">
+                            <p class="mb-0">
+                                <i class="bi bi-lightbulb text-warning me-2"></i>
+                                The goal is not to automate care—but to <strong>extend support where human resources are
+                                    limited</strong>.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Youth Ambassadors -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 reveal">
+                    <div class="d-flex align-items-center mb-4">
+                        <i class="bi bi-people text-primary fs-1 me-3"></i>
+                        <h2 class="mb-0">Training Youth as Mental Health Ambassadors</h2>
+                    </div>
+                    <p class="mb-4">
+                        We believe real impact happens <strong>within communities</strong>.
+                    </p>
+                    <p class="mb-4">
+                        UNITY WITHIN trains and empowers <strong>young people</strong> to become:
+                    </p>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-4">
+                            <div class="card h-100 text-center p-3 border-0 shadow-sm">
+                                <i class="bi bi-award text-primary fs-2 mb-2"></i>
+                                <h5 class="h6">Mental Health Ambassadors</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 text-center p-3 border-0 shadow-sm">
+                                <i class="bi bi-hand-thumbs-up text-primary fs-2 mb-2"></i>
+                                <h5 class="h6">Peer Supporters</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card h-100 text-center p-3 border-0 shadow-sm">
+                                <i class="bi bi-shield-check text-primary fs-2 mb-2"></i>
+                                <h5 class="h6">Safe Points of Contact</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mb-3"><strong>These ambassadors are trained to:</strong></p>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-2"><i class="bi bi-ear text-primary me-2"></i> Listen with empathy</li>
+                        <li class="mb-2"><i class="bi bi-eye text-primary me-2"></i> Recognize when someone needs help
+                        </li>
+                        <li class="mb-2"><i class="bi bi-signpost text-primary me-2"></i> Guide people toward
+                            appropriate support</li>
+                        <li class="mb-2"><i class="bi bi-heart text-primary me-2"></i> Be present where mental health
+                            support is needed most</li>
+                    </ul>
+                    <div class="alert alert-success" role="alert">
+                        <strong>This creates a human network of care, not just a digital one.</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BUDDIE: Your AI Companion -->
+    <section class="bg-white">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 text-center reveal">
+                    <i class="bi bi-robot text-primary fs-1 mb-3 d-block"></i>
+                    <h2>Meet BUDDIE: Your AI Companion</h2>
+                    <p class="lead text-muted">A friend who listens, understands, and supports you—without judgment</p>
+                </div>
+            </div>
+
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 reveal">
+                    <img src="assets/unity_within.png" alt="BUDDIE AI Companion" class="img-fluid rounded-4 shadow-lg">
+                </div>
+                <div class="col-lg-6 reveal">
+                    <h3 class="mb-4">What Makes BUDDIE Different</h3>
+                    <p class="mb-4">
+                        BUDDIE isn't just a chatbot—it's an <strong>empathetic AI companion</strong> designed to feel
+                        like talking to a trusted friend. BUDDIE is always available, never judgmental, and genuinely
+                        cares about your wellbeing.
+                    </p>
+
+                    <div class="mb-4">
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="feature-icon me-3">
+                                <i class="bi bi-heart-fill"></i>
+                            </div>
+                            <div>
+                                <h5 class="h6 mb-2">Non-Judgmental Support</h5>
+                                <p class="small text-muted mb-0">Share your thoughts and feelings freely without fear of
+                                    being judged. BUDDIE creates a safe space for honest expression.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="feature-icon me-3">
+                                <i class="bi bi-chat-dots-fill"></i>
+                            </div>
+                            <div>
+                                <h5 class="h6 mb-2">Empathetic Conversations</h5>
+                                <p class="small text-muted mb-0">BUDDIE understands context, remembers your journey, and
+                                    responds with genuine empathy and care.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start mb-3">
+                            <div class="feature-icon me-3">
+                                <i class="bi bi-lightbulb-fill"></i>
+                            </div>
+                            <div>
+                                <h5 class="h6 mb-2">Gentle Guidance</h5>
+                                <p class="small text-muted mb-0">Get personalized coping strategies, mindfulness tips,
+                                    and gentle encouragement when you need it most.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex align-items-start">
+                            <div class="feature-icon me-3">
+                                <i class="bi bi-clock-fill"></i>
+                            </div>
+                            <div>
+                                <h5 class="h6 mb-2">Always Available</h5>
+                                <p class="small text-muted mb-0">Whether it's 3 AM or during a difficult moment, BUDDIE
+                                    is there to listen and support you.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="alert alert-info" role="alert">
+                        <i class="bi bi-info-circle me-2"></i>
+                        <strong>Important:</strong> BUDDIE is a support companion, not a replacement for professional
+                        mental health care. If you're in crisis, please reach out to a professional.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Self-Therapizing Tools -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 text-center reveal">
+                    <i class="bi bi-tools text-primary fs-1 mb-3 d-block"></i>
+                    <h2>Self-Therapizing Tools</h2>
+                    <p class="lead text-muted">Evidence-based tools to help you understand and manage your mental
+                        wellbeing</p>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Mood Tracking -->
+                <div class="col-md-6 col-lg-4 reveal">
+                    <div class="card h-100 p-4 border-0 shadow-sm">
+                        <div class="text-center mb-3">
+                            <i class="bi bi-emoji-smile text-primary fs-1"></i>
+                        </div>
+                        <h4 class="h5 text-center mb-3">Mood Tracking</h4>
+                        <p class="small text-muted">
+                            Track your emotional patterns over time. Log your mood, energy levels, and triggers to gain
+                            insights into what affects your mental health.
+                        </p>
+                        <ul class="small list-unstyled mt-3">
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Daily mood check-ins
+                            </li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Visual mood history
+                            </li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Pattern recognition
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Journaling -->
+                <div class="col-md-6 col-lg-4 reveal">
+                    <div class="card h-100 p-4 border-0 shadow-sm">
+                        <div class="text-center mb-3">
+                            <i class="bi bi-journal-text text-primary fs-1"></i>
+                        </div>
+                        <h4 class="h5 text-center mb-3">Journaling (Text & Voice)</h4>
+                        <p class="small text-muted">
+                            Express your thoughts and feelings through writing or voice recording. Journaling helps
+                            process emotions and gain clarity.
+                        </p>
+                        <ul class="small list-unstyled mt-3">
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Text or voice entries
+                            </li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Private and secure</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Guided prompts</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Breathing Exercises -->
+                <div class="col-md-6 col-lg-4 reveal">
+                    <div class="card h-100 p-4 border-0 shadow-sm">
+                        <div class="text-center mb-3">
+                            <i class="bi bi-wind text-primary fs-1"></i>
+                        </div>
+                        <h4 class="h5 text-center mb-3">Breathing Exercises</h4>
+                        <p class="small text-muted">
+                            Calm your mind and body with guided breathing techniques. Perfect for managing anxiety and
+                            stress in the moment.
+                        </p>
+                        <ul class="small list-unstyled mt-3">
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Box breathing</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>4-7-8 technique</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Visual guidance</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Grounding Techniques -->
+                <div class="col-md-6 col-lg-4 reveal">
+                    <div class="card h-100 p-4 border-0 shadow-sm">
+                        <div class="text-center mb-3">
+                            <i class="bi bi-tree text-primary fs-1"></i>
+                        </div>
+                        <h4 class="h5 text-center mb-3">Grounding Techniques</h4>
+                        <p class="small text-muted">
+                            Reconnect with the present moment when feeling overwhelmed. Grounding helps manage anxiety
+                            and panic.
+                        </p>
+                        <ul class="small list-unstyled mt-3">
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>5-4-3-2-1 method</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Sensory awareness</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Body scan exercises
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Thought Reframing -->
+                <div class="col-md-6 col-lg-4 reveal">
+                    <div class="card h-100 p-4 border-0 shadow-sm">
+                        <div class="text-center mb-3">
+                            <i class="bi bi-lightbulb text-primary fs-1"></i>
+                        </div>
+                        <h4 class="h5 text-center mb-3">Thought Reframing</h4>
+                        <p class="small text-muted">
+                            Challenge negative thought patterns with evidence-based cognitive techniques. Learn to see
+                            situations from new perspectives.
+                        </p>
+                        <ul class="small list-unstyled mt-3">
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Identify distortions
+                            </li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Challenge beliefs</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Build resilience</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Gratitude Practice -->
+                <div class="col-md-6 col-lg-4 reveal">
+                    <div class="card h-100 p-4 border-0 shadow-sm">
+                        <div class="text-center mb-3">
+                            <i class="bi bi-stars text-primary fs-1"></i>
+                        </div>
+                        <h4 class="h5 text-center mb-3">Gratitude Practice</h4>
+                        <p class="small text-muted">
+                            Cultivate positivity by focusing on what you're grateful for. Regular gratitude practice
+                            improves overall wellbeing.
+                        </p>
+                        <ul class="small list-unstyled mt-3">
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Daily gratitude log
+                            </li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Reflection prompts</li>
+                            <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i>Positive mindset</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Features -->
+            <div class="row mt-5">
+                <div class="col-lg-12 reveal">
+                    <div class="card border-primary">
+                        <div class="card-body p-4">
+                            <div class="row align-items-center">
+                                <div class="col-md-8">
+                                    <h4 class="mb-3">Anonymous Peer Support Communities</h4>
+                                    <p class="mb-0">
+                                        Connect with others who understand what you're going through. Share experiences,
+                                        offer support, and find comfort in knowing you're not alone—all while
+                                        maintaining complete anonymity and privacy.
+                                    </p>
+                                </div>
+                                <div class="col-md-4 text-center">
+                                    <i class="bi bi-people-fill text-primary" style="font-size: 4rem;"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Long-Term Vision -->
+    <section class="bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center reveal">
+                    <i class="bi bi-heart text-white fs-1 mb-3 d-block"></i>
+                    <h2 class="text-white mb-4">Our Long-Term Vision</h2>
+                    <p class="lead mb-4">UNITY WITHIN is building a future where:</p>
+                    <div class="row g-3 mb-5">
+                        <div class="col-md-6">
+                            <div class="p-3 bg-white bg-opacity-10 rounded">
+                                <i class="bi bi-chat-dots fs-3 mb-2 d-block"></i>
+                                Mental health conversations are normal
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 bg-white bg-opacity-10 rounded">
+                                <i class="bi bi-shield-heart fs-3 mb-2 d-block"></i>
+                                Support is accessible, ethical, and human
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 bg-white bg-opacity-10 rounded">
+                                <i class="bi bi-cpu fs-3 mb-2 d-block"></i>
+                                Technology strengthens care—not replaces it
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="p-3 bg-white bg-opacity-10 rounded">
+                                <i class="bi bi-people-fill fs-3 mb-2 d-block"></i>
+                                Young people are empowered to support one another
+                            </div>
+                        </div>
+                    </div>
+                    <p class="fs-4 mb-4">This is not just a platform.</p>
+                    <p class="fs-3 fw-bold mb-0">It is a movement toward collective healing and awareness.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact & Scale -->
+    <section class="bg-light">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 reveal">
+                    <h2 class="text-center mb-4">Designed for Impact & Scale</h2>
+                    <p class="text-center text-muted mb-5">
+                        UNITY WITHIN is designed to scale across campuses and communities, supporting early
+                        intervention,
+                        mental health research, and culturally relevant wellbeing solutions.
+                    </p>
+                    <div class="row g-4 text-center">
+                        <div class="col-md-4">
+                            <div class="card border-0 shadow-sm p-4">
+                                <i class="bi bi-geo-alt text-primary fs-1 mb-3"></i>
+                                <h5>Starting in Kenya</h5>
+                                <p class="small text-muted mb-0">Culturally relevant solutions for local communities</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 shadow-sm p-4">
+                                <i class="bi bi-graph-up-arrow text-primary fs-1 mb-3"></i>
+                                <h5>Early Intervention</h5>
+                                <p class="small text-muted mb-0">Supporting mental wellness before crisis</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card border-0 shadow-sm p-4">
+                                <i class="bi bi-globe text-primary fs-1 mb-3"></i>
+                                <h5>Global Vision</h5>
+                                <p class="small text-muted mb-0">Scalable solutions for worldwide impact</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Install the App -->
+    <section class="bg-primary text-white">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center reveal">
+                    <i class="bi bi-phone text-white fs-1 mb-3 d-block"></i>
+                    <h2 class="text-white mb-4">Install the App Now</h2>
+                    <p class="lead mb-5">
+                        Get UNITY WITHIN on your mobile device and start your mental wellness journey today.
+                    </p>
+
+                    <div class="d-flex gap-3 justify-content-center flex-wrap">
+                        <!-- Google Play Store -->
+                        <button onclick="showComingSoon('Google Play Store')"
+                            class="btn btn-light btn-lg d-flex align-items-center" style="min-width: 200px;">
+                            <i class="bi bi-google-play fs-3 me-3"></i>
+                            <div class="text-start">
+                                <small class="d-block" style="font-size: 0.7rem;">GET IT ON</small>
+                                <strong>Google Play</strong>
+                            </div>
+                        </button>
+
+                        <!-- Apple App Store -->
+                        <button onclick="showComingSoon('Apple App Store')"
+                            class="btn btn-light btn-lg d-flex align-items-center" style="min-width: 200px;">
+                            <i class="bi bi-apple fs-3 me-3"></i>
+                            <div class="text-start">
+                                <small class="d-block" style="font-size: 0.7rem;">DOWNLOAD ON THE</small>
+                                <strong>App Store</strong>
+                            </div>
+                        </button>
+                    </div>
+
+                    <p class="mt-4 mb-0 opacity-75">
+                        <small><i class="bi bi-shield-check me-2"></i>Privacy-first • Secure • Anonymous</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="bg-white py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center reveal">
+                    <h3 class="mb-4">Join the Movement</h3>
+                    <p class="mb-4">
+                        Whether you're an investor, partner, researcher, or someone who believes in this mission—we'd
+                        love to connect.
+                    </p>
+                    <a href="index.html#contact" class="btn btn-primary btn-lg">Get in Touch</a>
+                    <a href="index.html" class="btn btn-outline-primary btn-lg ms-3">Back to Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h4 class="text-white h5 mb-4">UNITY WITHIN</h4>
+                    <p>Mental Wellness Through Technology</p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <p class="mb-2">Part of <strong>World Changer Techs</strong></p>
+                    <p class="small">&copy; 2026 Tipape Matayo. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+
+    <!-- Coming Soon Alert -->
+    <script>
+        function showComingSoon(storeName) {
+            // Create a custom styled alert
+            const alertDiv = document.createElement('div');
+            alertDiv.className = 'position-fixed top-50 start-50 translate-middle';
+            alertDiv.style.zIndex = '9999';
+            alertDiv.innerHTML = `
+                <div class="card shadow-lg border-0" style="min-width: 300px;">
+                    <div class="card-body text-center p-4">
+                        <i class="bi bi-hourglass-split text-primary fs-1 mb-3 d-block"></i>
+                        <h5 class="card-title mb-3">Coming Soon!</h5>
+                        <p class="card-text text-muted mb-4">
+                            UNITY WITHIN will be available on ${storeName} soon. Stay tuned!
+                        </p>
+                        <button onclick="this.closest('.position-fixed').remove()" class="btn btn-primary">
+                            Got it!
+                        </button>
+                    </div>
+                </div>
+            `;
+
+            // Add backdrop
+            const backdrop = document.createElement('div');
+            backdrop.className = 'position-fixed top-0 start-0 w-100 h-100 bg-dark bg-opacity-50';
+            backdrop.style.zIndex = '9998';
+            backdrop.onclick = () => {
+                backdrop.remove();
+                alertDiv.remove();
+            };
+
+            document.body.appendChild(backdrop);
+            document.body.appendChild(alertDiv);
+        }
+    </script>
+</body>
+
+</html>
