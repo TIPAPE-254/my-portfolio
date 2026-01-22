@@ -31,7 +31,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('assets/img2.png');
+    
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -155,11 +155,8 @@ body::before {
     }
 
     #worldchanger {
-        color: white;
-    }
-
-    #worldchanger .section-title {
-        color: white;
+        background: rgba(255, 255, 255, 0.9);
+        color: black;
     }
 
     .section-title {
